@@ -15,15 +15,15 @@
     "license": "MIT",
     "require": {
         "php": "^7.4",
-        "../api/vendor/guzzlehttp/guzzle": "^7.0",
-        "../api/vendor/vlucas/phpdotenv": "^4.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^4.1",
         "myclabs/php-enum": "^1.8"
     },
     "require-dev": {
-        "../api/vendor/phpunit/phpunit": "^9.0",
-        "../api/vendor/symfony/var-dumper": "^5.0",
+        "phpunit/phpunit": "^9.0",
+        "symfony/var-dumper": "^5.0",
         "phpspec/prophecy-phpunit": "^2.0",
-        "../api/vendor/fzaninotto/faker": "^1.9"
+        "fzaninotto/faker": "^1.9"
     },
     "autoload": {
         "psr-4": {
