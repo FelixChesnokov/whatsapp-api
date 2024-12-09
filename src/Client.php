@@ -77,6 +77,6 @@ class Client
 
     private function buildRequestUri(Request $request): string
     {
-        return $this->buildBaseUri() . 'Client.php/' . $request->fromPhoneNumberId() . '/messages';
+        return $this->buildBaseUri() . '/' . $request->fromPhoneNumberId() . '/messages';
     }
 }
