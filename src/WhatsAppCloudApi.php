@@ -31,7 +31,7 @@ class WhatsAppCloudApi
     /**
      * @const string Default Graph API version.
      */
-    public const DEFAULT_GRAPH_VERSION = 'v13.0';
+    public const DEFAULT_GRAPH_VERSION = 'v21.0';
 
     /**
      * @var WhatsAppCloudApiApp The WhatsAppCloudApiApp entity.
